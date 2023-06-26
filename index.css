@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+body {
+    position: relative;
+    text-align: center;
+    font-family: 'Smythe', cursive;
+    max-width: 600px;
+    height: 1160px;
+    display: block; 
+    margin: 0;
+    min-height:100vh;
+} 
+img header{
+    max-width: 600px;
+    margin: 0 auto;
+}
+section{
+    width: 508px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1.5px solid #D2D2D2;
+    margin: 65px auto 0 auto;
+    padding: 0;
+}
+.item-icon{
+    font-size: 78px;
+    line-height: 98px; 
+    padding: 10px; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.item-details{
+    padding: 50px auto auto 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+.name{
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 30px;
+    margin: 0;
+}
+.ingredients{
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0;
+}
+.price{
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+}
+.add-btn{
+    font-family: serif;
+    border: 1.5px solid #dedede;
+    border-radius: 50%;
+    font-size: 50px;
+    padding: 0 20px;
+    margin: auto 10px auto auto;
+}
+.cart{
+    margin: 47px;
+    margin-top: auto;
+    display: none;
+}
+#ur-ordr{
+    font-size: 28px;
+    line-height: 17px;
+}
+thead{
+    text-align:left;
+}
+.bill-tbl{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-size: 28px;
+    line-height: 17px;
+     border-bottom: 2px solid #393333;
+}
+.total-bill{
+     display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-size: 28px;
+    line-height: 24px;   
+}
+td,th{
+    display: flex;
+    padding: 5px 0;
+}
+#remove-btn{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #bbb;
+    padding-left: 10px;
+}
+.cart-item{
+    margin-left: 0;
+    margin-right: 0;
+    justify-content:space-between;
+}
+.green-btn{
+    width: 508px;
+    height: 60px;
+    color: white;
+    background: #16DB99;
+    border: none;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+}
+.order-form{
+    position: absolute; 
+    z-index: 1000;
+}
+#order-form{
+    font-family: sans-serif;
+    line-height: 36px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; 
+    height: 542px;
+    width: 524px;  
+    box-shadow: 0px 0px 100px #757575;
+    background-color: white;
+}
+#order-form p{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: bold;
+}
+#order-form input{
+    width: 425px;
+    height: 71px;
+    color: #757575;
+    padding-left : 50px;
+    margin-top: 25px;
+    border: 1px solid #757575;
+}
+#order-form button{
+    width: 475px;
+    height: 71px;
+    margin-top: 35px;
+}
+.display{
+    display: block;
+}
+#message-box{
+    color: #065F46;
+    background-color: #ECFDF5;
+    width: 505px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+        font-size: 28px;
+    line-height: 30px;
+}

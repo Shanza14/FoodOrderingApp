@@ -6,7 +6,8 @@ body {
     max-width: 600px;
     height: 1160px;
     display: block; 
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     min-height:100vh;
 } 
 img, header{
